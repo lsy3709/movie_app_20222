@@ -7,8 +7,8 @@ class App extends React.Component {
     movies: [],
   }
 
-  getMovies = () => {
-    const movies = axios.get("yts-proxy.now.sh/list_movies.json ");
+  getMovies = async () => {
+    const movies = await axios.get("yts-proxy.now.sh/list_movies.json ");
   }
   componentDidMount(){
     //영화 데이터 로딩!
