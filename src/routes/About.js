@@ -10,6 +10,7 @@ function About(props) {
         follows.”
       </span>
       <span>- George Orwell, 1984</span>
+      <span>클론 코딩 따라 해보기. </span>
     </div>
   );
 }
